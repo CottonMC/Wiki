@@ -72,3 +72,15 @@ a:hover {
 footer{
     font-size: 10px;
 }
+
+
+/**
+ * SIDEBAR
+ */
+nav > li{
+   display:block;
+   margin-left: 1rem;
+}
+nav > li.nav-header{
+    margin-left: 0;
+ }
