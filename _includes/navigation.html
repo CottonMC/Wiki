@@ -1,7 +1,7 @@
 <ul class="nav nav-pills nav-stacked">
     <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% for section in site.collections %}   <!-- We iterate through all our collections-->
-        {% for page in section.docs %}      <!-- for each page in the current collection we do: -->
+        {% for page in section.docs | sort 'order' %}      <!-- for each page in the current collection we do: -->
             {% if forloop.first and section.display %}  <!-- Add a section header if before the page if it's the first one ion the collection-->
                 <li class="nav-header">{{ section.display }}</li>
             {% endif %}
