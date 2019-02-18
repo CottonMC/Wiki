@@ -1,5 +1,12 @@
 <ul class="nav nav-pills nav-stacked">
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
+    
+    {% if page.url == site.baseurl %}
+        <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
+    {% else %}
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+    {% endif %}
+
+
     {% for section in site.collections %}   <!-- We iterate through all our collections-->  
         {% assign navigation_pages = section.docs | sort: 'order' %}
         {% for element in navigation_pages %}      <!-- for each page in the current collection, sorted by order, we do: -->
