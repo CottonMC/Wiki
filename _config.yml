@@ -14,8 +14,8 @@ google_analytics_id: ''
 #   2 - show only if posts are present
 navigation: 1
 
-# URL to source code, used in _includes/footer.html
-codeurl: 'https://github.com/Ansraer/Wiki'
+# URL to project, used in _includes/footer.html
+codeurl: 'https://fabricmc.net/'
 
 # Default categories (in order) to appear in the navigation
 collections_dir: _pages
