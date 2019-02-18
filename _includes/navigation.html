@@ -14,6 +14,7 @@
                 <li class="nav-header">{{ section.display }}</li>
             {% endif %}
 
+            <!-- If we are currently at this page add the active class to the link-->
             {% if page.url == element.url %}
                 <li class="active"><a href="{{ site.baseurl }}{{ element.url }}">{{ element.title }}</a></li>
             {% else %}

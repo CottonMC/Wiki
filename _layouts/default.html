@@ -8,22 +8,39 @@
         <title>{{ site.title }}{% if page.title %} : {{ page.title }}{% endif %}</title>
         <meta name="description" content="{{ site.subtitle }}">
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> Let's try this without bootstrap -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css">
+
     </head>
     <body>
 
         <div class="container">
-            <div class="row">
-                <div id="header" class="col-sm-12">
-                    {% include header.html %}
-                </div>
+
+            <header>
+                {% include header.html %}
+            </header>
+
+            <nav>
+                {% include navigation.html %}
+            </nav>
+
+            <main>
+                {{ content }}
+            </main>
+
+            <div id="footer" class="col-sm-12">
+                    {% include footer.html %}
             </div>
 
+            <footer>
+                    {% include header.html %}
+            </footer>
+<!--
             <div class="row">
                 {% assign doc_count = site.collections|size %}
-                {% if site.navigation != 0 and site.navigation == 1 or doc_count > 0 %} <!-- Only show nav if there are either pages or it has been manually enabled-->
+                {% if site.navigation != 0 and site.navigation == 1 or doc_count > 0 %}  Only show nav if there are either pages or it has been manually enabled
                     <div id="navigation" class="col-sm-2">
                         {% include navigation.html %}
                     </div>
@@ -59,7 +76,7 @@
                 </div>
             </div>
         </div>
-
+-->
         
         {% if site.google_analytics_id != "" %}
             {% include google_analytics.html %}
