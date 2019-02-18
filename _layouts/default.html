@@ -9,7 +9,7 @@
         <meta name="description" content="{{ site.subtitle }}">
 
         <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> Let's try this without bootstrap -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">    <!-- Used for code syntax highlighting-->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css">
 
@@ -34,45 +34,7 @@
             <footer>
                 {% include footer.html %}
             </footer>
-<!--
-            <div class="row">
-                {% assign doc_count = site.collections|size %}
-                {% if site.navigation != 0 and site.navigation == 1 or doc_count > 0 %}  Only show nav if there are either pages or it has been manually enabled
-                    <div id="navigation" class="col-sm-2">
-                        {% include navigation.html %}
-                    </div>
 
-                    <div id="content" class="col-sm-10">
-                        {{ content }}
-                    </div>
-                {% else %}
-                    <div id="content" class="col-sm-12">
-                        {{ content }}
-                    </div>
-                {% endif %}
-            </div>
-
-            {% if page.disqus == 1 %}
-            <div class="row">
-              {% if site.navigation == 1 or doc_count > 0 %}
-                <div id="navigation" class="col-sm-2"></div>
-                <div id="disqus" class="col-sm-10">
-                    {% include disqus.html %}
-                </div>
-              {% else %}
-                <div id="disqus" class="col-sm-12">
-                    {% include disqus.html %}
-                </div>
-              {% endif %}
-            </div>
-            {% endif %}
-
-            <div class="row">
-                <div id="footer" class="col-sm-12">
-                    {% include footer.html %}
-                </div>
-            </div>
--->
         </div>
 
         {% if site.google_analytics_id != "" %}
