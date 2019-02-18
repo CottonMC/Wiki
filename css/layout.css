@@ -43,6 +43,8 @@ main {
 footer {
     grid-area: footer;
     text-align: center;
+    padding-top: .8rem;
+    padding-bottom: 1.2rem;
 }
 
 /* Mobile support*/

@@ -55,3 +55,7 @@ a:hover {
 .site-logo, .site-logo:visited {
       color: #424242;
 }
+
+footer{
+    font-size: 10px;
+}
