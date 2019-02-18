@@ -20,7 +20,7 @@ codeurl: 'https://fabricmc.net/'
 # Default categories (in order) to appear in the navigation
 collections_dir: _pages
 collections:
-  started:
+  beginner:
     output: true
     display: Getting Started
   basic:
