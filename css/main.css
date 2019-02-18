@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     margin-bottom: 15px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
 /**
  * Links
  */
@@ -44,7 +48,6 @@ a:hover {
  .site-logo {
     font-size: 26px;
     font-weight: 300;
-    line-height: 54px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;

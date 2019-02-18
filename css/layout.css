@@ -21,7 +21,7 @@ body {
 
 header {
     grid-area: header;
-    margin: 12px 6px;
+    margin: 12px 20px 5px 20px;
 }
   
 nav {
@@ -31,6 +31,7 @@ nav {
 .nav-sticky{
     position: sticky;
     top:0;
+    padding:.5rem;
 }
   
 main {
