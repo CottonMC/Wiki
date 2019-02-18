@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Contributing to this Wiki"
+title: "Contribute to this Wiki"
 order: 1
 ---
 

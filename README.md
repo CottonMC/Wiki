@@ -1,3 +1,3 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jekyll-docs-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+An unofficial wiki for the Fabric Project, created by Ansraer
 
-Read the docs: http://bruth.github.io/jekyll-docs-template
+[See it in action here!](https://ansraer.github.io/Wiki/)
