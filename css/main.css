@@ -58,6 +58,8 @@ a:hover {
  table {
      margin: 5px;
      margin-bottom: 15px;
+     border-spacing: 0px;
+     border-collapse: collapse;
  }
 th {
     font-weight: 600;
@@ -69,8 +71,9 @@ tr {
 tr:nth-child(even) {
     background-color: #f6f8fa
 }
-td{
+td, th{
     border: 1px solid #d5d9dd;
+    padding: 3px 5px;
 }
 
 
