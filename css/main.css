@@ -77,10 +77,10 @@ footer{
 /**
  * SIDEBAR
  */
-nav > li{
+.nav > li{
    display:block;
    margin-left: 1rem;
 }
-nav > li.nav-header{
+.nav > li.nav-header{
     margin-left: 0;
  }
