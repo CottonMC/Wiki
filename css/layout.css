@@ -10,9 +10,8 @@ body {
       "nav content"
       "footer footer";
   
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 250px 1fr;
     grid-template-rows: auto 1fr auto;
-    grid-gap: 10px;
   
     height: 100vh;
 
@@ -26,7 +25,6 @@ header {
   
 nav {
     grid-area: nav;
-    margin-left: 0.5rem;
     background-color: aquamarine;
 }
 .nav-sticky{
@@ -36,11 +34,13 @@ nav {
   
 main {
     grid-area: content;
+    margin-left: 1rem;
 }
   
   
 footer {
     grid-area: footer;
+    text-align: center;
 }
 
 /* Mobile support*/
