@@ -83,4 +83,22 @@ footer{
 }
 .nav > li.nav-header{
     margin-left: 0;
+    text-transform: capitalize;
+    font-weight: bold; 
  }
+
+.nav > li.nav-header::first-letter {
+    font-size: 20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav>li>a:hover {
+    background-color: bisque;
+}
+.nav>li.active>a {
+    background-color:darkcyan;
+
+}
