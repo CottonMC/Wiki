@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5, h6 {
  *  Blockqoutes
  */
 blockquote {
-    padding-left: 2rem;
+    border-left: 4px solid #ccc;
+    margin-left: 1rem;
+    padding-left: .5rem;
     font-style: italic;
 }
 
