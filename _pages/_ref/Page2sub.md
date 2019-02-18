@@ -2,7 +2,8 @@
 layout: page
 title: "Page 2 in subfolder"
 category: ref
-date: 2013-06-05 12:00:00
+order: 1
 ---
 
 This is page 2  in the _pages/_ref subfolder
+This page should be displayed before Page 1
