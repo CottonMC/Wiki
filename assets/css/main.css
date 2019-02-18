@@ -36,25 +36,9 @@ blockquote {
     margin-left: 1rem;
     padding-left: .5rem;
     font-style: italic;
+    line-height: 25px;
 }
-blockquote:before, blockquote:after {
-    display: inline-block;
-    vertical-align: top;
-    height: 30px;
-    line-height: 48px;
-    font-size: 50px;
-    opacity: .2;
-}
-blockquote:before {
-    content: '\201C';
-    margin-right: 4px;
-    margin-left: -8px;
-}
-blockquote:after {
-    content: '\201D';
-    margin-left: 4px;
-    margin-right: -8px;
-}
+
 
 /**
  * Links
