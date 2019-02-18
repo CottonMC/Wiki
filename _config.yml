@@ -22,18 +22,23 @@ collections_dir: _pages
 collections:
   beginner:
     output: true
+    order: 1
     display: Getting Started
   basic:
     output: true
+    order: 2
     display: Basics
   intermediate:
     output: true
+    order: 3
     display: Intermediate
   advanced:
     output: true
+    order: 4
     display: Advanced
   wiki:
     output: true
+    order: 5
     display: Wiki
 
 

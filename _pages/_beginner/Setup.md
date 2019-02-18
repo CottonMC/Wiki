@@ -1,5 +1,5 @@
 ---
 layout: page
 title: "Setting up you dev environment"
-order: 1
+order: 2
 ---

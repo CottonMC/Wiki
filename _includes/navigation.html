@@ -6,8 +6,8 @@
         <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% endif %}
 
-
-    {% for section in site.collections %}   <!-- We iterate through all our collections-->  
+    {% assign cols = site.collections | sort: 'order' %}    <!-- make sure that our collections are sorted properly-->
+    {% for section in cols %}   <!-- We iterate through all our collections-->  
         {% assign navigation_pages = section.docs | sort: 'order' %}
         {% for element in navigation_pages %}      <!-- for each page in the current collection, sorted by order, we do: -->
             {% if forloop.first and section.display %}  <!-- Add a section header if before the page if it's the first one ion the collection-->
