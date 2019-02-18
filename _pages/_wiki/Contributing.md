@@ -14,6 +14,7 @@ Each Markdown file needs to start with the following lines:
 
 
 ```markdown
+---
 layout: page
 title: "Contributing to this Wiki"
 order: 1
