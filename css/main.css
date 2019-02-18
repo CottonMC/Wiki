@@ -55,6 +55,10 @@ a:hover {
 /**
  * TABLES
  */
+ table {
+     margin: 5px;
+     margin-bottom: 15px;
+ }
 th {
     font-weight: 600;
 }
