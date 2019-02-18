@@ -52,6 +52,9 @@ highlighter: rouge
 # Since these are pages, it doesn't really matter
 future: true
 
+#make sure that our collections from inside the _pages folder are loaded
+include: [_pages]
+
 # Exclude non-site files
 exclude: ['bin', 'README.md']
 

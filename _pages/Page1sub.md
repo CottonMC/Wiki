@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Page 2"
+title: "Page 1 sub"
 category: ref
 date: 2013-06-05 12:00:00
 ---
 
-This is page 2  in the _ref subfolder
+This is page 1 in the _pages subfolder

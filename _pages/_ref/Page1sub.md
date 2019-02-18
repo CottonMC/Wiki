@@ -1,0 +1,8 @@
+---
+layout: page
+title: "Page 1 in subfolder"
+category: ref
+date: 2013-06-05 12:00:00
+---
+
+This is page 1 in the _pages/_ref subfolder
