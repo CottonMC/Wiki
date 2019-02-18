@@ -1,11 +1,11 @@
 <ul class="nav">
-    {% if page.url == "" %}
+    {% if page.url == blank %}
         <li class="active">
             <a href="{{ site.baseurl }}/">Home CLICKED</a>
         </li>
     {% else %}
         <li>
-            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/">Home NOT CLICKED</a>
         </li>
     {% endif %}
 
