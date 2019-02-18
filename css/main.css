@@ -77,23 +77,28 @@ footer{
 /**
  * SIDEBAR
  */
+ .nav{
+    margin-top:.5rem;
+ }
 .nav > li{
    display:block;
-   margin-left: 1rem;
+   margin-left: 1.5rem;
 }
 .nav > li.nav-header{
-    margin-left: 0;
+    margin-left: 1rem;
     text-transform: capitalize;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 18px/1.5 
  }
 
 .nav > li.nav-header::first-letter {
-    font-size: 20px;
+    font-size: 20px/1.5;
 }
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    margin: 5px 0px;
+    width: 100%;
 }
 .nav>li>a:hover {
     background-color: bisque;
