@@ -20,21 +20,21 @@ codeurl: 'https://fabricmc.net/'
 # Default categories (in order) to appear in the navigation
 collections_dir: _pages
 collections:
-  doc:
+  started:
     output: true
-    display: Documentation
-  tut:
+    display: Getting Started
+  basic:
     output: true
-    display: Tutorial
-  ref:
+    display: Basics
+  intermediate:
     output: true
-    display: Reference
-  dev:
+    display: Intermediate
+  advanced:
     output: true
-    display: Developers
-  post:
+    display: Advanced
+  wiki:
     output: true
-    display: Posts
+    display: Wiki
 
 
 
