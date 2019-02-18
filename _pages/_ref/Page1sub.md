@@ -32,8 +32,14 @@ public class CallingMethodsInSameClass
 	}
 }
 ```
+This was a code test. here comnes another:
 
+```shell
+./gradlew runClient
+```
+Qoute test:
 
+> To be or not to be, ...
 
 asd
 
