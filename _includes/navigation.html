@@ -1,5 +1,5 @@
 <ul class="nav">
-    {% if page.url == blank %}
+    {% if page.url == "" or page.url == nil %}
         <li class="active">
             <a href="{{ site.baseurl }}/{{ page.url }}">Home CLICKED</a>
         </li>
