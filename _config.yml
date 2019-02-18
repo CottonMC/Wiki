@@ -18,6 +18,7 @@ navigation: 1
 codeurl: 'https://github.com/Ansraer/Wiki'
 
 # Default categories (in order) to appear in the navigation
+collections_dir: _pages
 collections:
   doc:
     output: true
