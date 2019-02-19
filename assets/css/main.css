@@ -14,7 +14,7 @@ body {
     font-kerning: normal;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, div.highlight {
     margin:0px;
     padding:0px;
     margin-bottom: 15px;
