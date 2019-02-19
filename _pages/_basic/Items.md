@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "Item basics"
+title: "Basic Item"
 order: 1
 ---
-> Great Ansraer, if you are reading this you are having problems with the most basic stuff. Srsly, you need to look up how to create Items? Again? How can you keep forgetting something this easy?
 
 Adding an item to Minecraft is a two-step process. You first have to add your item in code (in your mod's init method) and then you have to provide the necessary asset files that define how your item is rendered.
 
@@ -40,7 +39,7 @@ The reason why Minecraft calls your item "item.modid.my_first_item" is because t
   "item.modid.my_first_item": "Tutorial Item"
 }
 ```
-This will let Minecraft now that the english name of what was previously called "item.modid.my_first_item" is "Tutorial Item". In the future whenever you want to add a translation for something added by you mod simply add a new line to this file with `"current_name": "Translated Name"`. Also make sure that all lines except the last one end with a `,`!
+This will let Minecraft now that the english name of what was previously called "item.modid.my_first_item" is "Tutorial Item". In the future whenever you want to add a translation for something added by you mod simply add a new line to this file with `"current_name": "Translated Name"`. Also make sure that all lines except the last one end with a "`,`"!
 
 ### Rendering you item
 Now let's fix how our new Item is displayed. Whenever minecraft attempts to display an item it loads the item's models file for instructions on how to render it. Let's create this model file now. Create a new json file at the following location: `src/main/resources/assets/modid/models/item/my_first_item.json`. Make sure that "modid" and "my_first_item" match whatever you used in your item's Identifier.
