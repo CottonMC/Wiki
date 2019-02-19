@@ -100,7 +100,7 @@ Now that you have a basic idea of what your project looks like here are some imp
 4. Start reading the source code of other mods on github or head over to the Basic section. And don't forget to join us on Discord!
 
 ## **GRADLE, SOS!**
-You are doomed.
+If you are reading this you are doomed. Give up now.
 
 Wait no, don't actually do that! Gradle has a tendency to break, so whatever you are experiencing right now is probably not your fault. Try the following solutions and see if they fix your project:
 
