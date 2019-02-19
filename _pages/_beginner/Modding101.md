@@ -22,7 +22,7 @@ Fabric is a new-ish modding API that tries to counter the trend of constantly gr
 ### Yarn
 
 Unlike other modding environments fabric doesn't use the MCP mappings. After long and tedious research I managed to find the following two quotes explaining this decision:
-> "BECAUSE IS SAID SO" </br>
+> "BECAUSE IS SAID SO"
 > -- <cite>asie, 19.02.2019 01:28 CEST</cite>
 
 > "we don't want lex to sue us"
@@ -31,4 +31,4 @@ Unlike other modding environments fabric doesn't use the MCP mappings. After lon
 Instead, the fabric dev team decided to create their own, completely open source, mappings for Minecraft using a program called "enigma". The result of this effort is known as "yarn". **PLEASE BE AWARE THAT OUT OF LEGAL REASONS WE TRY TO AVOID NAMES FROM MCP AS MUCH AS POSSIBLE.**
 
 ### Loom
-Loom is the last major part of the Fabric project: It's a gradle plugin that is used for all the stuff that happens behind the scenes. As a modder all you need to know is that loom sets up your workspace and is used to build your mods final jar file. Other tha- Wait, why am I writing this? This was supposed to be a collection of notes for personal reference. All this stuff is not important! I got sidetracked again, Shit, shit, **SHIT**
+Loom is the last major part of the Fabric project: It's a gradle plugin that is used for all the stuff that happens behind the scenes. As a modder all you need to know is that loom sets up your workspace and is used to build your mods final jar file. Other tha- Wait, why am I writing this? This was supposed to be a collection of notes for personal reference. All this stuff is not important! I got sidetracked again, Shit, **shit, SHIT**
