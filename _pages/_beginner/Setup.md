@@ -100,4 +100,21 @@ Now that you have a basic idea of what your project looks like here are some imp
 4. Start reading the source code of other mods on github or head over to the Basic section. And don't forget to join us on Discord!
 
 ## **GRADLE, SOS!**
-You are doomed. Give up.
+You are doomed.
+
+Wait no, don't actually do that! Gradle has a tendency to break, so whatever you are experiencing right now is probably not your fault. Try the following solutions and see if they fix your project:
+
+1. Kill old gradle processes. Sometimes gradle keeps running in the background and locks a file, making it impossible for newer gradle processes to change it. You can kill all running gradle processes with the `./gradlew --stop` command.
+
+2. make sure you have the latest version of Java 8 installed and are using it for gradle. Other java versions might break stuff and cause weird errors. Whenever you have an SSL error it's probably java that screwed up.
+
+3. Delete the following folders/files:
+    - `PROJECT_FOLDER/.gradle`
+    - `C:/Users/YOU/.gradle`
+    - All IDE related files in you project folder.
+
+4. Restart your PC. Trust me, it works...
+
+5. Abandon all hope and despair.
+
+6. Get over your ego and ask for help on the official Fabric Discord server.
