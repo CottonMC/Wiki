@@ -6,6 +6,10 @@ order: 1
 > "You think you know how modding works? You think that Forge and Bukkit are all there is? What is real? What mysteries lie beyond the reach of your senses? At the root of modding mapping and mixins meet. Thoughts shape reality. This dev environment is only one of an infinite number. Git repositories without end. Some benevolent and open source. Others filled with malice and restrictive licenses."
 > -- <cite>Ansraer, 18.02.2019 19:46 CEST</cite>
 
+
+**I wrote this text to test the formatting of mardown features. As others have pointed out to me it's not completely accurate, but fixing this is a low priority. Feel free to create a PR or just send me a edited version via other means.**
+
+
 ## Fabric API, Yarn and Loom
 
 To start explaining what Fabric, Yarn, Loom, and Enigma are I will have to start with explaining how java works. Developers write Java source code (usually in .java files). This source code is easily readable, but in no way optimized for usage by a machine. That's why we have to compile it to a format all devices that can run java can understand: the *.java files are turned into *.class files (called byte code), something far closer to machine-readable code than the original source code. When these files are executed with the Java VM the JIT (just in time compiler) compiles them once more to real machine code. This has the advantage that our compiled class codes are platform independent (machine code usually only works on the platform it was compiled on) but can be converted to machine code very, very fast.
@@ -23,10 +27,10 @@ Fabric is a new-ish modding API that tries to counter the trend of constantly gr
 
 Unlike other modding environments fabric doesn't use the MCP mappings. After long and tedious research I managed to find the following two quotes explaining this decision:
 > "BECAUSE IS SAID SO"
-> -- <cite>asie, 19.02.2019 01:28 CEST</cite>
+> -- <cite>asie, 19.02.2019 01:28 CEST on the Fabric Discord server</cite>
 
 > "we don't want lex to sue us"
-> -- <cite>B0undarybreaker, 19.02.2019 01:28 CEST</cite>
+> -- <cite>B0undarybreaker, 19.02.2019 01:28 CEST on the Fabric Discord server</cite>
 
 Instead, the fabric dev team decided to create their own, completely open source, mappings for Minecraft using a program called "Enigma". The result of this effort is known as "Yarn". **PLEASE BE AWARE THAT OUT OF LEGAL REASONS WE TRY TO AVOID NAMES FROM MCP AS MUCH AS POSSIBLE.**
 
