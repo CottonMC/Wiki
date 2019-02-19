@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 ul, ol {
     padding-left: 20px;
 }
+li > ul {
+    margin-bottom: 0px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
