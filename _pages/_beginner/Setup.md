@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Setting up you dev environment"
+title: "Setup"
 order: 2
 ---
 The following steps will help you getting started with Fabric. You will learn how to setup a dev environment and how to customize it to fit you project.
@@ -27,11 +27,13 @@ This might take a few minutes. Next, you will need to prepare your project for y
 ```
 I also recommend that you install the excellent MinecraftDev plugin for IntelliJ. You can get it [here](https://plugins.jetbrains.com/plugin/8327-minecraft-development) or from the IntelliJ Marketplace.
 
-Open the project in IntelliJ by double-clicking the .ipr file. Make sure to **NOT** import it as a gradle project.
+Open the project in IntelliJ by double-clicking the .ipr file. I recommend you to NOT import it as a gradle project should intellij ask, some users are experiencing a number of different problems with loom and intellij's gradle plugin.
+
 ### Eclipse
 ```shell
 ./gradlew eclipse genEclipseRuns
 ```
+
 ### VS Code
 Open the folder with VS Code and wait for it to import the gradle project (This might take some time). Once it is done go to View -> Terminal. This should open a terminal in the project folder. Enter the following command:
 ```shell
@@ -100,9 +102,7 @@ Now that you have a basic idea of what your project looks like here are some imp
 4. Start reading the source code of other mods on github or head over to the Basic section. And don't forget to join us on Discord!
 
 ## **GRADLE, SOS!**
-If you are reading this you are doomed. Give up now.
-
-Wait no, don't actually do that! Gradle has a tendency to break, so whatever you are experiencing right now is probably not your fault. Try the following solutions and see if they fix your project:
+Gradle has a tendency to break, so whatever you are experiencing right now is probably not your fault. Try the following solutions and see if they fix your project:
 
 1. Kill old gradle processes. Sometimes gradle keeps running in the background and locks a file, making it impossible for newer gradle processes to change it. You can kill all running gradle processes with the `./gradlew --stop` command.
 
