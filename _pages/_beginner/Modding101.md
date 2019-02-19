@@ -22,10 +22,10 @@ Fabric is a new-ish modding API that tries to counter the trend of constantly gr
 ### Yarn
 
 Unlike other modding environments fabric doesn't use the MCP mappings. After long and tedious research I managed to find the following two quotes explaining this decision:
-> BECAUSE IS SAID SO
+> "BECAUSE IS SAID SO" </br>
 > -- <cite>asie, 19.02.2019 01:28 CEST</cite>
 
-> we don't want lex to sue us
+> "we don't want lex to sue us"
 > -- <cite>B0undarybreaker, 19.02.2019 01:28 CEST</cite>
 
 Instead, the fabric dev team decided to create their own, completely open source, mappings for Minecraft using a program called "enigma". The result of this effort is known as "yarn". **PLEASE BE AWARE THAT OUT OF LEGAL REASONS WE TRY TO AVOID NAMES FROM MCP AS MUCH AS POSSIBLE.**
