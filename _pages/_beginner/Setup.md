@@ -88,7 +88,7 @@ Here is how your modid.client.json should look like right now:
 ```
 Important is the line starting with "package" and the "mixins" array. The later is an array of all the mixin classes that you want to add on the client side and the first is the package where they can be found. Right now only the mixin "ExampleMixin" in the "net.fabricmc.example.mixin" will be applied.
 
-### src/main/java/net/fabricmc/example/ExampleMod.jaba
+### src/main/java/net/fabricmc/example/ExampleMod.java
 This is your mod's main class. It's onInitialize() method will be run during Minecraft's startup. Whenever I mention "the initialize method" or "during initialization" or "in your main mod class" I am talking about this method/class.
 
 ## Customize your project
