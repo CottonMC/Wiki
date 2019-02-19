@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Basic Block"
-order: 1
+order: 2
 ---
 
 Now that you already know how to add Items to Minecraft Blocks shouldn't be that much more difficult. You again will have to do two things: 1. Register your block and 2. Provide the necessary assets.
