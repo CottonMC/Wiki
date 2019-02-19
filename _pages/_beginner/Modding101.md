@@ -8,7 +8,7 @@ order: 1
 
 ## Fabric API, Yarn and Loom
 
-To start explaining what fabric, yarn, loom, and enigma are I will have to start with explaining how java works. Developers write Java source code (usually in .java files). This source code is easily readable, but in no way optimized for usage by a machine. That's why we have to compile it to a format all devices that can run java can understand: the *.java files are turned into *.class files (called byte code), something far closer to machine-readable code than the original source code. When these files are executed with the Java VM the JIT (just in time compiler) compiles them once more to real machine code. This has the advantage that our compiled class codes are platform independent (machine code usually only works on the platform it was compiled on) but can be converted to machine code very, very fast.
+To start explaining what Fabric, Yarn, Loom, and Enigma are I will have to start with explaining how java works. Developers write Java source code (usually in .java files). This source code is easily readable, but in no way optimized for usage by a machine. That's why we have to compile it to a format all devices that can run java can understand: the *.java files are turned into *.class files (called byte code), something far closer to machine-readable code than the original source code. When these files are executed with the Java VM the JIT (just in time compiler) compiles them once more to real machine code. This has the advantage that our compiled class codes are platform independent (machine code usually only works on the platform it was compiled on) but can be converted to machine code very, very fast.
 
 As you might have already guessed Minecraft, like any other java program, is distributed as byte code. Platform independent code that can run on anything that supports Java. In order to interact with it we, however, need to be able to see it's source code. Usually, this wouldn't be too much of a problem, there are quite a few programs out there that can turn bytecode back into source code. The problem is that the Minecraft source code is also obfuscated. This means that the bytecode is modified in such a way that it is still fully functional, but far harder to read or reverse engineer. This is usually accomplished by replacing meaningful names with random nonsense.
 
@@ -28,7 +28,7 @@ Unlike other modding environments fabric doesn't use the MCP mappings. After lon
 > "we don't want lex to sue us"
 > -- <cite>B0undarybreaker, 19.02.2019 01:28 CEST</cite>
 
-Instead, the fabric dev team decided to create their own, completely open source, mappings for Minecraft using a program called "enigma". The result of this effort is known as "yarn". **PLEASE BE AWARE THAT OUT OF LEGAL REASONS WE TRY TO AVOID NAMES FROM MCP AS MUCH AS POSSIBLE.**
+Instead, the fabric dev team decided to create their own, completely open source, mappings for Minecraft using a program called "Enigma". The result of this effort is known as "Yarn". **PLEASE BE AWARE THAT OUT OF LEGAL REASONS WE TRY TO AVOID NAMES FROM MCP AS MUCH AS POSSIBLE.**
 
 ### Loom
 Loom is the last major part of the Fabric project: It's a gradle plugin that is used for all the stuff that happens behind the scenes. As a modder all you need to know is that loom sets up your workspace and is used to build your mods final jar file. Other tha- Wait, why am I writing this? This was supposed to be a collection of notes for personal reference. All this stuff is not important! I got sidetracked again, Shit, **shit, SHIT**
