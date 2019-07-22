@@ -28,14 +28,14 @@ collections:
     output: true
     order: 2
     display: Basics
-  intermediate:
+  cotton_resources:
     output: true
     order: 3
-    display: Intermediate
-  advanced:
+    display: Cotton Resources
+  cotton_energy:
     output: true
     order: 4
-    display: Advanced
+    display: Cotton Energy
   wiki:
     output: true
     order: 5
