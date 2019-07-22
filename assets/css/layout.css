@@ -23,7 +23,12 @@ header {
     grid-area: header;
     margin: 12px 20px 5px 20px;
 }
-  
+
+img.logo{
+  height:50px;
+  width:50px;
+}
+
 nav {
     grid-area: nav;
     background-color: #f7f7f7;
