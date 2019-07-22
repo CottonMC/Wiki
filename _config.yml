@@ -15,12 +15,12 @@ google_analytics_id: ''
 navigation: 1
 
 # URL to project, used in _includes/footer.html
-codeurl: 'https://fabricmc.net/'
+codeurl: 'https://github.com/CottonMC'
 
 # Default categories (in order) to appear in the navigation
 collections_dir: _pages
 collections:
-  beginner:
+  getting_started:
     output: true
     order: 1
     display: Getting Started

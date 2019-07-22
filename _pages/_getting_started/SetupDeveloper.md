@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Setup"
+title: "Developer Setup"
 order: 2
 ---
 The following steps will help you getting started with Fabric. You will learn how to setup a dev environment and how to customize it to fit you project.
