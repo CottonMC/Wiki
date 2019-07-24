@@ -16,7 +16,7 @@ The github pages site is automatically updated after each commit. However, if yo
     $ ruby --version
     > ruby 2.X.X
     ```
-    If you don't have ruby installed installed, install [Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
+    If you don't have ruby installed, install [Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
 
 2.  Install bundler:
     ```bash
