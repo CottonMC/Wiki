@@ -24,10 +24,10 @@ collections:
     output: true
     order: 1
     display: Getting Started
-  basic:
+  cotton:
     output: true
     order: 2
-    display: Basics
+    display: Cotton
   cotton_resources:
     output: true
     order: 3
