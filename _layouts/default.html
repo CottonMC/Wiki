@@ -14,9 +14,8 @@
         <title>{{ site.title }}{% if page.title %} : {{ page.title }}{% endif %}</title>
         <meta name="description" content="{{ site.subtitle }}">
 
-        <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> Let's try this without bootstrap -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/layout.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">    <!-- Used for code syntax highlighting-->
 
 
@@ -36,7 +35,7 @@
             </nav>
 
             <main>
-                {% include anchor_headings.html html=content %}
+                {% include anchor_headings.html html=content anchorBody='#' beforeHeading=true anchorClass='anchor' %}
             </main>
 
 

@@ -32,6 +32,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
 /**
  *  Blockqoutes
  */
@@ -54,11 +60,18 @@ blockquote {
     text-decoration: none;
 }
 a:visited {
-      color: #1756a9;
+    color: #1756a9;
 }
 a:hover {
-      color: #111;
-      text-decoration: underline;
+    color: #111;
+    text-decoration: underline;
+}
+
+a.anchor{
+    color:#666;
+}
+a.anchor:hover{
+    text-decoration: none;
 }
 
 /**
@@ -98,7 +111,8 @@ td, th{
     float: left;
 }
 .site-logo, .site-logo:visited {
-      color: #424242;
+    color: #424242;
+    vertical-align: middle;
 }
 
 footer{
@@ -109,7 +123,7 @@ footer{
 /**
  * SIDEBAR
  */
- .nav{
+.nav{
     margin-top:.5rem;
     padding: 0;
     margin: 0;
