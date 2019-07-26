@@ -60,7 +60,7 @@ The blockstate json files tell Minecraft which model should be used based on the
 Place your blockstate file at the following location `src/main/resources/assets/modid/blockstates/my_first_block.json`.
 
 #### Block Model
-Let's also give Minecraft the block model we referenced in our blockstates.json. This time place it at ``src/main/resources/assets/modid/models/my_first_block.json`.
+Let's also give Minecraft the block model we referenced in our blockstates.json. This time place it at ``src/main/resources/assets/modid/models/block/my_first_block.json``.
 For a basic cube, all we need to tell Minecraft is that out block is a child of "cube" and what texture we want to use. This should look something like this:
 ```json
 {
