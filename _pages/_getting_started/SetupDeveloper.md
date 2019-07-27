@@ -10,7 +10,7 @@ The following steps will help you adding one of cottons libraries to your mod.
 - Internet access
 - A workig fabric project **with FABRIC API**
 
-## Add the cotton repository
+## 1. Add the cotton repository
 All of cotton's mods and libraries are hosted on our own maven repository. In order for you to donwload them you need to add said repository to you build.gradle file:
 
 ```bash
@@ -27,7 +27,7 @@ repositories {
 }
 ```
 
-## Add whatever dependency you need
+## 2. Add whatever dependency you need
 
 You now need to import the dependecy you want two times, first in the build.gradle to add it to your project and once to the mod json file to tell the fabric mod loader that you mod depends on it.
 
@@ -96,9 +96,22 @@ And mark cotton-energy as a dependency in fabric.mod.json:
 
 ### LibGUI
 
-  __TODO__
+Add the dependency to your buil.gradle:
+```bash
+dependencies {
+  modCompile "io.github.cottonmc:LibGui:<version>"
+}
+```
+And mark LibGui as a dependency in fabric.mod.json:
+```json
+"depends": {
+  "fabricloader": ">=0.4.0",
+  "fabric": "*",
 
-## Running the gradle tasks
+  "libgui":"<version>"
+},
+```
+## 3. Running the gradle tasks
 For the next step open a shell and navigate to your project folder. You will need to run a gradle command to download the new dependencies for your project:
 ```bash
 ./gradlew genSources

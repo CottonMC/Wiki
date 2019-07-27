@@ -36,9 +36,13 @@ collections:
     output: true
     order: 4
     display: Cotton Energy
-  wiki:
+  libgui:
     output: true
     order: 5
+    display: LibGui
+  wiki:
+    output: true
+    order: 6
     display: Wiki
 
 
