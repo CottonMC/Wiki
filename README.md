@@ -1,11 +1,13 @@
-The oofficial wiki for the Cotton Project, created by Ansraer
+# Cotton Wiki
+
+The official wiki for the Cotton Project, created by Ansraer
 
 [See it in action here!](https://cottonmc.github.io/Wiki/)
 
 ## Building the site on your PC
 The github pages site is automatically updated after each commit. However, if you want to test changes locally you will need to install jekyll on your PC.
 
-1.  Start by openiong bash and making sure that you have ruby installed:
+1.  Start by opening bash and making sure that you have ruby installed:
     ```bash
     $ ruby --version
     > ruby 2.X.X
