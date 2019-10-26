@@ -4,11 +4,12 @@ on:
   push:
     branches:
     - master
-    jobs:
-      deplpy:
-        name: Deploy
-        runs-on: ubuntu-latest
-        steps:
-        - name: Deploy to gh-pages branch
-          run: |
-            ./deploy.sh
+    
+jobs:
+  deplpy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to gh-pages branch
+      run: |
+        ./deploy.sh
