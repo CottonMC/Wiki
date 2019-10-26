@@ -15,8 +15,8 @@ jobs:
         yarn build
         cd docs/.vuepress/dist
         git init
-        git config --local user.email "falseresync@gmail.com"
-        git config --local user.name "Mikhail Oleynikov"
+        git config --local user.email "example@example.com"
+        git config --local user.name "Example Example"
         git add -A
         git commit -m 'deploy'
     - name: Push changes
