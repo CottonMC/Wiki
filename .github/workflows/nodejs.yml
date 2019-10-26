@@ -17,11 +17,12 @@ jobs:
         git init
         git config --local user.email "falseresync@gmail.com"
         git config --local user.name "Mikhail Oleynikov"
-        git commit -m 'deploy' -a
+        git add -A
+        git commit -m 'deploy'
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: 'gh-pages'
         force: true
-        directory: 'docs'
+        directory: 'docs/.vuepres/dist'
