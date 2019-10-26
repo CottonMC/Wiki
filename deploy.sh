@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+npm install vuepress
+
 set -e
 
 yarn build
