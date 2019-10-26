@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - master
-    
+
 jobs:
   deplpy:
     name: Deploy
@@ -12,4 +12,4 @@ jobs:
     steps:
     - name: Deploy to gh-pages branch
       run: |
-        ./deploy.sh
+        ~/deploy.sh
