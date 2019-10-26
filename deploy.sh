@@ -2,9 +2,13 @@
 
 set -e
 
+yarn install
 yarn build
 
 cd docs/.vuepress/dist
+
+git config user.email "falseresync@gmail.com"
+git config user.name "Mikhail Oleynikov"
 
 git init
 git add -A
