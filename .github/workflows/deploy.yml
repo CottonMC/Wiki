@@ -10,5 +10,5 @@ jobs:
         name: Deploy
         steps:
             - name: Deploy Step
-            run:
+            run: |
                 ./deploy.sh
