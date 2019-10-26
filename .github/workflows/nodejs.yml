@@ -13,6 +13,8 @@ jobs:
     - run: |
         yarn install
         yarn build
+        cd docs/.vuepress/dist
+        git init
         git config --local user.email "falseresync@gmail.com"
         git config --local user.name "Mikhail Oleynikov"
         git commit -m 'deploy' -a
