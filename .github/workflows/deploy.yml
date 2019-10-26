@@ -1,14 +1,14 @@
 name: Deploy
 
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+    - master
 
 jobs:
-    deploy:
-        name: Deploy
-        steps:
-            - name: Deploy Step
-            run: |
-                ./deploy.sh
+  deplpy:
+    name: Deploy
+    steps:
+    - name: Deploy to gh-pages branch
+      run: |
+        ./deploy.sh
