@@ -4,7 +4,7 @@
 
 ## What is LibCD?
 
-LibConditionalData, or LibCD, adds hooks to conditionally load data pack elements based on a metadata file. It's focused on being simple and extensible, along with being compatible with any resource type added by other mods.
+LibCapableData, or LibCD, adds various hooks to have more advanced control over data. It's focused on being simple and extensible, along with being compatible with any resource type added by other mods.
 
 ## Client Use
 For conditional resources, add a file `<target resource with extension>.mcmeta`. This will be parsed as JSON to check whether the resource should be loaded. All conditions go in an array with the key `when:`, and are each given as an object with a single key-value pair. Each pair will specify a condition that *must* be met for the recipe to be loaded. There are four conditions pre-included, and other mods may add their own:
