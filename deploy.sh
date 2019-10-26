@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:falseresync/Wiki.git master:gh-pages
+git push -f git@github.com:cottonmc/Wiki.git master:gh-pages
 
 cd -
