@@ -10,4 +10,16 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
-    - run: sh ./deploy.sh
+    - run: |
+        yarn install
+        yarn build
+        git config --local user.email "falseresync@gmail.com"
+        git config --local user.name "Mikhail Oleynikov"
+        git commit -m 'deploy' -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: 'gh-pages'
+        force: true
+        directory: 'docs'
