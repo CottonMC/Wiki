@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+npm install markdown-it-imsize
 npm install vuepress
 
 set -e
