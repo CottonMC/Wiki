@@ -19,7 +19,7 @@ For conditional resources, add a file `<target resource with extension>.mcmeta`.
 ## Developer use
 LibCD allows any mod to register their own conditions, to prevent recipe loadin based on config or more advanced logic. LibCD is available on the CurseForge maven.
 
-To add a new condition, call `LibConditionalData.registerCondition()`, passing an Identifier for the condition's name and a `Predicate<Object>` for the use of the condition.
+To add a new condition, call `Conditions.registerCondition()`, passing an Identifier for the condition's name and a `Predicate<Object>` for the use of the condition.
 
 The Object passed to the predicate will be a boxed primitive (Integer, Float, Boolean, etc.), a String, a `List<JsonElement>`, a `JsonObject`, or null. Use an `instanceof` check to be sure what you're being passed.
 
