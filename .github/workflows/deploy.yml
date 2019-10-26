@@ -7,6 +7,7 @@ on:
     jobs:
       deplpy:
         name: Deploy
+        runs-on: ubuntu-latest
         steps:
         - name: Deploy to gh-pages branch
           run: |
