@@ -1,0 +1,13 @@
+name: Deploy
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    deploy:
+        name: Deploy
+        steps:
+            run:
+                ./deploy.sh
