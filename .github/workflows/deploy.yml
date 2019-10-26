@@ -9,5 +9,6 @@ jobs:
     deploy:
         name: Deploy
         steps:
+            - name: Deploy Step
             run:
                 ./deploy.sh
